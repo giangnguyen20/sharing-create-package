@@ -1,0 +1,26 @@
+{
+    "name": "demo/sendmaildemo",
+    "description": "this package is a demo send mail and save query in database",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Demo\\Sendmaildemo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "giang nguyen",
+            "email": "giynnguyen1120@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Demo\\sendmaildemo\\SendMailServiceProvider"
+            ]
+        }
+    },
+}
